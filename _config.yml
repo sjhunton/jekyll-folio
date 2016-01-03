@@ -1,3 +1,4 @@
+########################### EDIT YOUR SETTINGS HERE
 # Site settings
 title: folio # give your site a title
 email: you@example.com # put your email address in here
@@ -8,6 +9,7 @@ baseurl:  # the subpath of your site, e.g. /blog/; if unsure, leave this blank
 url: http://username.github.io # replace username with your github username
 github_username:  github_username # replace with your github username
 
+########################## DO NOT EDIT BELOW HERE UNLESS YOU'RE STOKED TO HACK
 # Build settings
 markdown: kramdown
 

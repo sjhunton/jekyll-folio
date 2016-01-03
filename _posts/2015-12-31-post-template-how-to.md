@@ -1,8 +1,9 @@
 ---
 layout: post
-title: Post Title
-description: A basic template post.
-categories: jekyll blogging how-to
+title: A Template Post
+description: A basic template post. # A description is optional.
+categories: jekyll blogging how-to # Categories are optional.
+# Categories are, sadly, case-sensitive, so you should get in the habit of only using lowercase tags.
 ---
 This is a basic template post, as well as a markdown how-to.
 
@@ -33,6 +34,8 @@ MyObject.prototype = {
 Headers are specified by some number of hashes—\#—big headers get one, smaller headers get two, and so on down to five headers.
 
 The other most common thing you will do is make links. In theory, links simply written out, including the http part, should be live once parsed, (e.g. http://eng7006.github.io/). But in most cases, especially when writing pingbacks, you'll want to explicitly link text. The readable text goes in square brackets—[]—and the place to link to goes in regular parentheses—(). Like so: [our ENG 7006 homepage](http://eng7006.github.io/).
+
+> Block quotes are introduced by a little right-pointing arrow thingie (a right angle bracket, to be precise).
 
 Bullet points are specified by asterisks at the beginning of lines (with spaces after them):
 

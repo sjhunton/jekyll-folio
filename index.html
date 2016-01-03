@@ -16,7 +16,7 @@ layout: default
       <li>
         <h2><a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
         <p class="post-meta">{{ post.date | date: '%B %-d, %Y' }}. {% if post.categories.first != null %}In: {% for category in post.categories %}<a href="{{ site.baseurl }}/categories/#{{ category }}">{{ category }}</a>{% unless forloop.last %} | {% endunless %}{% endfor %}{% endif %}</p>
-        <p>{{ post.description }}</p>
+        <p>{% if post.description %}{{ post.description }}{% else %}{{ post.excerpt }}{% endif %}</p>
         <br/>
         <hr/>
       </li>

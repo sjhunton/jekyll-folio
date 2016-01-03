@@ -198,19 +198,19 @@ p code {
   padding: 0px 5px;
   border: 1px solid #ddd;
   background-color: $grey-color-light;
-  border-radius: 3px;
+  border-radius: 1px;
   white-space: nowrap;
 }
 
 .highlight {
   padding: 30px;
-  border-radius: 6px;
+  border-radius: 1px;
   background-color: $grey-color-light;
   color: $grey-color-dark;
   line-height: 1;
 
   code {
-    font-size: .7rem;
+    font-size: .8rem;
   }
 }
 
