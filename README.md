@@ -13,4 +13,21 @@ You'll almost certainly only need to interact with this repository exactly once 
 **GitHub workflow note:** Once you've made the changes to ```_config.yml```, save the changes in Atom, then switch back over to GitHub Desktop and commit the change, calling it "Initial config" or something.
 
 5. **Edit the About page.** You'll be able to change this easily, whenever you like. Put something in there, even if it's silly or banal. Leave the "YAML front matter" alone, since you're leaving things as is. Write it in Markdown! (NB: YAML stands for YAML Ain't Markup Language, which is a dumb programmer joke: it's recursive, see!) Once again, once you've made your changes, save the file, switch over to GitHub desktop and commit the changes ("Add about").
-6. **Add any additional pages**. If you want to add any additional pages—not blog posts!—you may do so by copying, renaming, modifying, committing, and pushing the ```page.md``` file. (Shortest way to get started right-click on ```page.md``` in the Atom file browser, select "Duplicate," choose a name for the page, and edit away.)
+6. **Add any additional pages**. If you want to add any additional pages—not blog posts!—you may do so by copying, renaming, modifying, and committing the ```page.md``` file. (Shortest way to get started right-click on ```page.md``` in the Atom file browser, select "Duplicate," choose a name for the page, and edit away.)
+  7. **Sync the local changes up to GitHub.** Once you've made all the local changes in the steps above and committed them to the master branch of your specially-named github.io repo, press the Sync button at the top right of the GitHub desktop window. That will send your changes to GitHub desktop, and GitHub will build up a special Jekyll site just for you.
+
+### Now start blogging!
+Now you're ready to start blogging! More fulsome instructions on how to do that are on our course website, but the really short version is this:
+1. Create a file in the form ```2016-mm-dd-post-title.md```, where ```mm``` is the two-digit month and ```dd``` is the two-digit day, e.g. ```2016-01-14-first-post.md``` for a post the first day of class. **It is important to maintain the proper naming convention for post files, most especially the date convention, beginning with ```yyyy-mm-dd```.**
+2. Begin the file with the appropriate YAML front matter:
+```yaml
+---
+layout: post
+title: First Post
+description: A first post.
+categories: blogging
+---
+```
+The description and categories are optional.
+3. Write the post in markdown below the front matter.
+4. Save the changes, commit them, and sync the repo to GitHub. Voilà! The post should be live. (It may take a minute or two for GitHub to finish building your changes.)
