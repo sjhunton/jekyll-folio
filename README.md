@@ -17,8 +17,8 @@ You'll almost certainly only need to interact with this repository exactly once 
   7. **Sync the local changes up to GitHub.** Once you've made all the local changes in the steps above and committed them to the master branch of your specially-named github.io repo, press the Sync button at the top right of the GitHub desktop window. That will send your changes to GitHub desktop, and GitHub will build up a special Jekyll site just for you.
 
 ### Now start blogging!
-Now you're ready to start blogging! More fulsome instructions on how to do that are on our course website, but the really short version is this:
-1. Create a file in the form ```2016-mm-dd-post-title.md```, where ```mm``` is the two-digit month and ```dd``` is the two-digit day, e.g. ```2016-01-14-first-post.md``` for a post the first day of class. **It is important to maintain the proper naming convention for post files, most especially the date convention, beginning with ```yyyy-mm-dd```.**
+Now you're ready to start blogging! More fulsome instructions on how to do that can be found in the post template file in your brand new site's ```_posts``` folder. But here are some schematic instructions:
+1. Create a file in the ```_posts``` folder, in the form ```2016-mm-dd-post-title.md```, where ```mm``` is the two-digit month and ```dd``` is the two-digit day, e.g. ```2016-01-14-first-post.md``` for a post the first day of class. **It is important to maintain the proper naming convention for post files, most especially the date convention, beginning with ```yyyy-mm-dd-```.**
 2. Begin the file with the appropriate YAML front matter:
 ```yaml
 ---
@@ -28,6 +28,6 @@ description: A first post.
 categories: blogging
 ---
 ```
-The description and categories are optional.
+The description and categories are optional. (Fo)
 3. Write the post in markdown below the front matter.
 4. Save the changes, commit them, and sync the repo to GitHub. Voilà! The post should be live. (It may take a minute or two for GitHub to finish building your changes.)
