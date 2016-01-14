@@ -16,7 +16,8 @@ markdown: kramdown
 kramdown:
   input: GFM
 
-highlighter: rouge # this will cause an error on github build; you can ignore it
+#highlighter: rouge # this will cause a harmless error on github build; you can ignore it
+highlighter: pygments # this will break a local jekyll hosting situation without a lot of work
 
 # Pagination
 gems: [jekyll-paginate]
