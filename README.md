@@ -6,9 +6,9 @@ You'll almost certainly only need to interact with this repository exactly once 
 [View a live demo of folio](http://kredati.github.io/jekyll-folio).
 
 1. **Fork this repository.**  If you're logged into GitHub, you can fork the repository by click on the little "Fork" button at the top right.
-2. **Change the repository's name.** Bring up the repository's settings by clicking on settings, in the tab bar just below the repository's name, all the way to the right. Change the name from ```jekyll-folio``` to ```[username].github.io```, swapping in your username. You **must** do this or GitHub won't recognize this as your website. Now that you've forked the repo and renamed it, the blank site should now be live at your username.github.io site. (Although you may need to give it a brief minute to build.)
+2. **Change the repository's name.** Bring up the repository's settings by clicking on settings, in the tab bar just below the repository's name, all the way to the right. Change the name from ```jekyll-folio``` to ```[username].github.io```, swapping in your username. You **must** do this or GitHub won't recognize this as your website. Now that you've forked the repo and renamed it, the blank site should now be live at your ```[username].github.io``` site. (Although you may need to give it a brief minute to build.)
 3. **Download the repository.** Once you've done that, on the main repository page, click on the button that will download the repository into GitHub desktop. It's not labeled, but it's immediately to the left of the "Download ZIP" button. It should look something like this: <span class="ocitcon octicon-desktop-download">...</span> This will automagically open GitHub desktop, asking you to choose where to put your local working copy of the repo. ```git/[username].github.io``` is as good a place as any.
-4. **Edit the config file.** You will need to do this just once, thankfully. Open the site by right-clicking on the repo in GitHub desktop and selecting "Open in Atom." Atom will open a new window, which will include a list of files on the left hand side. Below the folders, but above the other files, you'll find ```_config.yml```. Open the file by clicking on it. I've prepared ```_config.yml``` so that it's clear what you need to change and what you don't. At minimum, give your site a ```title```, ```description```, a ```url``` that is http://[username].github.io, and a ```github_username``` that is your GitHub username. Some Jekyll templates come with a motto, others ask for a Twitter handle (which is optional).
+4. **Edit the config file.** You will need to do this just once, thankfully. Open the site by right-clicking on the repo in GitHub desktop and selecting "Open in Atom." Atom will open a new window, which will include a list of files on the left hand side. Below the folders, but above the other files, you'll find ```_config.yml```. Open the file by clicking on it (just once; no need to double click). I've prepared ```_config.yml``` so that it's clear what you need to change and what you don't. At minimum, give your site a ```title```, ```description```, a ```url``` that is http://[username].github.io, and a ```github_username``` that is your GitHub username (case sensitive). Some Jekyll templates come with a motto, others ask for a Twitter handle (which is optional).
 
 **GitHub workflow note:** Once you've made the changes to ```_config.yml```, save the changes in Atom, then switch back over to GitHub Desktop and commit the change, calling it "Initial config" or something.
 
@@ -28,6 +28,6 @@ description: A first post.
 categories: blogging
 ---
 ```
-The description and categories are optional. (Fo)
+The description and categories are optional.
 3. Write the post in markdown below the front matter.
 4. Save the changes, commit them, and sync the repo to GitHub. Voilà! The post should be live. (It may take a minute or two for GitHub to finish building your changes.)
