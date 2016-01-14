@@ -18,7 +18,7 @@ $vertical-spacing-unit:         40px;
 $nav-height:                    56px;
 
 /* portfolio tinkering */
-$img_spacing: 5px; 
+$img_spacing: 5px;
 $img_height: 275px;
 $caption_font_size: 12px;
 $caption_color: #aaa;
@@ -126,7 +126,7 @@ a {
     text-decoration: none;
     /*
     &:visited {
-        color: darken($brand-color, 15%); 
+        color: darken($brand-color, 15%);
     }
     */
     &:hover {
@@ -165,7 +165,7 @@ blockquote {
 
 /**
  * Code formatting
- */
+
 pre,
 code {
     font-size: 15px;
@@ -187,12 +187,37 @@ pre {
         padding-left: 0;
     }
 }
+*/
 
+code {
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+  font-size: .8rem;
+}
+
+p code {
+  padding: 0px 5px;
+  border: 1px solid #ddd;
+  background-color: $grey-color-light;
+  border-radius: 1px;
+  white-space: nowrap;
+}
+
+.highlight {
+  padding: 30px;
+  border-radius: 1px;
+  background-color: $grey-color-light;
+  color: $grey-color-dark;
+  line-height: 1;
+
+  code {
+    font-size: .8rem;
+  }
+}
 
 
 /**
  * Wrapper
- */ 
+ */
 
 .wrapper {
     max-width: -webkit-calc(800px - (#{$horizontal-spacing-unit} * 2));
@@ -223,6 +248,3 @@ pre {
         clear: both;
     }
 }
-
-
-
