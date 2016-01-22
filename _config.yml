@@ -1,10 +1,10 @@
 ########################### EDIT YOUR SETTINGS HERE
 # Site settings
 
-title:  let's do this
+title:  Let's do this
 email: sarahjhunton@gmail.com # put your email address in here; optional
 # edit your site description; keep it brief
-description: "the author this works"
+description: "A (hopefully) functioning blog from a first semester grad student"
 url: http://sjhunton.github.io # replace [username] with your github username (no brackets)
 github_username: sjhunton # replace with your github username
 
